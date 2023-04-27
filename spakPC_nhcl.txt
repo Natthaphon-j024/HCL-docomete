@@ -1,0 +1,86 @@
+Computer Name: NHC_SC01
+CPU: 4 core
+RAM: 4 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.41
+Gateway: 192.168.10.254
+
+Computer Name: NHC_SC02
+CPU: 4 core
+RAM: 4 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.42
+Gateway: 192.168.10.254
+
+Computer Name: NHC_SC03
+CPU: 4 core
+RAM: 4 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.43
+Gateway: 192.168.10.254
+
+Computer Name: NHC_SC04
+CPU: 4 core
+RAM: 4 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.44
+Gateway: 192.168.10.254
+
+Computer Name: NHC_SC05
+CPU: 4 core
+RAM: 4 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.45
+Gateway: 192.168.10.254
+
+Computer Name: NHC_SC06
+CPU: 4 core
+RAM: 4 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.46
+Gateway: 192.168.10.254
+
+Computer Name: NHC_IB01
+CPU: 8 core
+RAM: 16 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.11
+Gateway: 192.168.10.254
+
+Computer Name: NHC_SERVER
+CPU: 16 core
+RAM: 32 GB
+C: 500 GB
+D: 500 GB
+IP: 192.168.10.1
+Gateway: 192.168.10.254
+
+Computer Name: NHC_IO01
+CPU: 8 core
+RAM: 16 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.51
+Gateway: 192.168.10.254
+
+Computer Name: NHC_IO02
+CPU: 8 core
+RAM: 16 GB
+C: 300 GB
+D: 300 GB
+IP: 192.168.10.52
+Gateway: 192.168.10.254
+
+Computer Name: NHC_PW01
+CPU: 16 core
+RAM: 32 GB
+C: 2,000 GB
+IP: 192.168.10.32
+Gateway: 192.168.10.254
