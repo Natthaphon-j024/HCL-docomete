@@ -1,0 +1,506 @@
+esxi 1
+{
+VMware vCenter Server_216
+Guest OS:Other 3.x or later Linux (64-bit)
+Compatibility
+VMware Tools:Yes
+
+CPUs 4
+
+Memory 19 GB
+
+Host name:vCenter.HCL
+
+CPU:333 MHz
+
+MEMORY:19.09 GB
+
+STORAGE:719.29 GB
+on
+
+DNS_Server
+Guest OS:Microsoft Windows Server 2012 (64-bit)
+Compatibility
+VMware Tools:Yes
+
+CPUs:2
+
+Memory:4 GB
+on
+
+NHC_PW01
+Guest OS:Ubuntu Linux (64-bit)
+Compatibility
+VMware Tools:Yes
+
+CPUs:16
+
+Memory:32 GB
+
+Host name:Backmask
+
+CPU:967 MHz
+
+MEMORY:32.09 GB
+
+STORAGE:1.98 TB
+on
+
+
+Host name:DNS_Server
+
+CPU:22 MHz
+
+MEMORY:1.11 GB
+
+STORAGE:44.12 GB
+off
+
+NHC_IO03
+Guest OS:Microsoft Windows 7 (64-bit)
+Compatibility
+VMware Tools:Yes
+
+CPUs:8
+
+Memory:16 GB
+
+CPU:0 MHz
+
+MEMORY:0 B
+
+STORAGE:300.04 GB
+off
+
+
+NHC_IO01
+Guest OS
+Microsoft Windows 10 (64-bit) VBS not enabled
+
+Compatibility
+VMware Tools
+No
+
+CPUs
+8
+
+Memory
+16 GB
+
+CPU
+65 MHz
+
+MEMORY
+13.29 GB
+
+STORAGE
+316.09 GB
+on
+
+
+vCLS-3d52cd2d-cbc1-48f8-b3d7-81431880b5f2
+Guest OS
+Other 3.x or later Linux (64-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+1
+
+Memory
+128 MB
+
+Host name
+None
+
+CPU
+3 MHz
+
+MEMORY
+155 MB
+
+STORAGE
+936.15 MB
+on
+
+
+
+
+
+NHCIO100
+Guest OS
+Microsoft Windows 10 (64-bit) VBS not enabled
+
+Compatibility
+VMware Tools
+No
+
+CPUs
+8
+
+Memory
+16 GB
+
+CPU
+119 MHz
+
+MEMORY
+10.68 GB
+
+STORAGE
+316.09 GB
+on
+
+
+NHC_IO02
+Guest OS
+Microsoft Windows 10 (64-bit) VBS not enabled
+
+Compatibility
+VMware Tools
+No
+
+CPUs
+8
+
+Memory
+16 GB
+
+CPU
+0 MHz
+
+MEMORY
+0 B
+
+STORAGE
+300 GB
+off
+}
+
+esxi 2 
+{
+vCLS-a6761972-01f7-4d73-935e-1ccf601c3539
+Guest OS
+Other 3.x or later Linux (64-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+1
+
+Memory
+128 MB
+
+Host name
+None
+
+CPU
+3 MHz
+
+MEMORY
+155 MB
+
+STORAGE
+930.92 MB
+on
+
+
+nhc_sc01
+Guest OS
+Microsoft Windows 7 (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+4 GB
+
+Host name
+nhc_sc01
+
+CPU
+726 MHz
+
+MEMORY
+3.05 GB
+
+STORAGE
+1.23 TB
+on
+
+nhc_sc02
+Guest OS
+Microsoft Windows 7 (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+4 GB
+
+Host name
+nhc_sc02
+
+CPU
+657 MHz
+
+MEMORY
+3.06 GB
+
+STORAGE
+1.23 TB
+on
+
+nhc_sc04
+Guest OS
+Microsoft Windows 7 (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+4 GB
+
+Host name
+nhc_sc04
+
+CPU
+3.7 GHz
+
+MEMORY
+3.05 GB
+
+STORAGE
+1.23 TB
+on
+
+
+
+}
+
+esxi3
+{
+vCLS-b8d06c06-07de-4632-8146-585c63ed8b8a
+Guest OS
+Other 3.x or later Linux (64-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+1
+
+Memory
+128 MB
+
+Host name
+None
+
+CPU
+3 MHz
+
+MEMORY
+154 MB
+
+STORAGE
+983.17 MB
+on !
+
+nhc_sc03
+Guest OS
+Microsoft Windows 7 (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+4 GB
+
+Host name
+nhc_sc03
+
+CPU
+716 MHz
+
+MEMORY
+3.05 GB
+
+STORAGE
+1.23 TB
+
+nhc_sc05
+Guest OS
+Microsoft Windows 7 (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+4 GB
+
+Host name
+nhc_sc05
+
+CPU
+626 MHz
+
+MEMORY
+3.05 GB
+
+STORAGE
+1.23 TB
+on
+
+
+nhc_sc06
+Guest OS
+Microsoft Windows 7 (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+4 GB
+
+Host name
+nhc_sc06
+
+CPU
+710 MHz
+
+MEMORY
+3.05 GB
+
+STORAGE
+1.23 TB
+on
+
+
+NHC_SC10
+Guest OS
+Microsoft Windows 7 (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+4 GB
+
+
+
+Host name
+nhc_sc10
+
+CPU
+723 MHz
+
+MEMORY
+3.05 GB
+
+STORAGE
+405.47 GB
+on
+}
+
+
+Exsi 4 
+{
+
+nhc_ib01
+Guest OS
+Microsoft Windows Server 2003 Standard (32-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+2
+
+Memory
+4 GB
+
+Host name
+nhc_ib01
+
+CPU
+83 MHz
+
+MEMORY
+4.04 GB
+
+STORAGE
+604.6 GB
+on
+
+nhc_server
+Guest OS
+Microsoft Windows Server 2008 R2 (64-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+1
+
+Memory
+31.97 GB
+
+Host name
+nhc_server
+
+CPU
+212 MHz
+
+MEMORY
+30.01 GB
+
+STORAGE
+1,015.79 GB
+on
+
+hcl_report
+Guest OS
+Ubuntu Linux (64-bit)
+Compatibility
+VMware Tools
+Yes
+
+CPUs
+4
+
+Memory
+8 GB
+
+CPU
+0 MHz
+
+MEMORY
+0 B
+
+STORAGE
+50.02 GB
+off
+}
